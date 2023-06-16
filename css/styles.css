@@ -516,7 +516,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--second-color);
     margin-bottom: 16px;
-    margin-left: 24px;
 }
 
 .subscribe-input {
@@ -760,7 +759,7 @@ img {
 }
 
 .modal-box {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-label {
@@ -817,6 +816,7 @@ img {
     resize: none;
     background-color: transparent;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textaria:focus {
@@ -872,7 +872,7 @@ img {
     padding: 16px 32px;
     border: none;
     cursor: pointer;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin: auto;
